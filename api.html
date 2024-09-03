@@ -1,0 +1,60 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv api</title>
+    <script src="api.js"></script>
+    <link rel="stylesheet" href="api.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Api cat fact</h1>
+            <h2>esta api mostra uma curiosidade aleatoria sobre gatinhos.</h2>
+            <button id="btn_cat">cat fact</button>
+            <p id="gatofato"></p>
+        </section>
+
+        <section>
+            <h1>Api number</h1>
+            <h2>esta api mostra uma curiosidade sobre um numero especifico.</h2>
+            <input type="number" id="n_input" placeholder="digite um numero...">
+            <button id="btn_number">curiosidade sobre um numero</button>
+            <p id="number_p"></p>
+        </section>
+
+        <section>
+            <h1>Api json placeholder</h1>
+            <h2>api fake que cria posts e suporta diversos metodos.</h2>
+            <h3>escolha o metodo desejado:</h3>
+
+            <button id="btn_get">GET</button>
+            <button id="btn_post">POST</button>
+            <button id="btn_delete">DELETE</button>
+
+            <br>
+            <br>
+
+            <div class="oculto" id="div_get">
+                <input type="number" id="get_input" placeholder="digite o numero do post...">
+                <button id="btn_get2">fazer get</button>
+            </div>
+
+            <div class="oculto" id="div_post">
+                <input type="number" id="post_input" placeholder="digite o numero do usuario...">
+                <input type="text" id="post_input2" placeholder="digite o titulo do post...">
+                <button id="btn_post2">fazer post</button>
+            </div>
+
+            <div class="oculto" id="div_delete">
+                <input type="number" id="delete_input" placeholder="digite o numero do post...">
+                <button id="btn_delete2">fazer delete</button>
+            </div>
+
+            <p id="resultado"></p>
+
+        </section>
+    </main>
+</body>
+</html>
